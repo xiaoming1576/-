@@ -1,0 +1,138 @@
+/*header*/
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background: #E9EBEE;
+    z-index: 99;
+    box-shadow:0 2px 5px #ddd;
+}
+#header .top-nav{
+    max-width:1100px;
+    width:90%;
+    height: 100%;
+    margin:0 auto;
+}
+
+#header .top-nav .logo{
+    float: left;
+    height: 37px;
+    width: 132px;
+    margin:14px;
+}
+#header .top-nav .nav1{
+    float: right;
+}
+#header .top-nav .nav2{
+    display: none;
+}
+#header .top-nav .nav li{
+    float: left;
+}
+#header .top-nav .nav li a{
+    display: inline-block;
+    padding:25px 40px;
+    font-size:16px;
+    color:#000;
+}
+#header .top-nav .nav li a:hover{
+    color:#ADC38A;
+}
+#header .top-nav a.on{
+    color:#ADC38A !important;
+}
+
+
+/*0-1200*/
+@media screen and (max-width:1200px){
+    #header .top-nav .nav1{
+        float: left;
+        margin-left:20px;
+    }
+    .top-nav .nav1 a{
+        padding: 23px 20px !important;
+    }
+}
+/*0-900*/
+@media screen and (max-width:900px){
+    #header{
+        height: 100px;
+        background: #fff;
+    }
+    #header .top-nav .nav1{
+        display: none;
+    }
+    #header .top-nav .nav2{
+        display: block;
+        float: none;
+        height:30px;
+        width: 500px;
+        margin:0 auto;
+
+    }
+
+    #header .top-nav .logo{
+        float: none;
+        margin:18px auto 0;
+
+    }
+    #header .top-nav .nav2 li a{
+        padding:14px 35px !important;
+        font-size:14px;
+    }
+    #header .top-nav .nav2 li>span{
+        display: inline-block;
+        padding: 14px 35px;
+        font-size:14px;
+        cursor: pointer;
+    }
+    #header .top-nav .nav2 li>span>img{
+
+        height: 14px;
+        width: 14px;
+    }
+    #header .top-nav .nav2 li:nth-child(4){
+        position: relative;
+    }
+    .more{
+        display: none;
+        position: absolute;
+        top: 40px;
+        width: 100px;
+        background: #fff;
+        border:1px solid #000;
+        border-radius: 5px;
+
+    }
+    .more p{
+        width: 100%;
+        padding:8px 0;
+        text-align: center;
+        cursor: pointer;
+    }
+    .more p:hover{
+        color:#ADC38A;
+    }
+
+
+}
+
+
+
+
+/*0-600*/
+@media screen and (max-width:600px){
+    #header .top-nav .nav2{
+        width:342px;
+    }
+    #header .top-nav .nav2 li a{
+        padding:14px 15px !important;
+    }
+    #header .top-nav .nav2 li span{
+        padding:14px 15px !important;
+    }
+
+
+}
