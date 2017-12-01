@@ -1,0 +1,109 @@
+@charset 'utf-8';
+
+#footer{
+	width:100%;
+	min-width:1230px;
+	border-color:#D1D7DC;
+}
+#f-top{
+	width:100%;
+	background:#fff;
+
+
+}
+
+#footer .fTopWrap{
+
+	width:1200px;
+	margin:auto;
+
+}
+#footer .fBotWrap{
+
+	width:1200px;
+	margin:auto;
+
+}
+#footer .tmall-ensure{
+	border-color:#D1D7DC;
+
+}
+#footer .ensureList{
+	height:90px;
+	width:239px;
+	padding:30px 0px 30px 50px;
+}
+#footer .line{
+	margin-top:50px;
+	height:44px;
+	width:1px;
+	background:#D1D7DC;
+
+}
+#footer .icon{
+	vertical-align:middle;
+	font-size:50px;
+
+}
+#footer .txtCon{
+	height:50px;
+	vertical-align:middle;
+}
+#footer .bottomtxt{
+	line-height:1.8;
+
+}
+
+
+#footer .descList{
+	
+	width:130px;
+	padding:25px 55px;
+	line-height:1.8;
+	
+}
+#footer .tmallPic{
+
+	left:50px;
+
+}
+	/*天猫相关信息*/
+#f-bottom{
+	width:100%;
+	background:#000;
+	border-top:2px solid #c40000;
+	color:#fff;
+
+
+}
+#f-bottom .tmallInfo{
+	line-height:35px;
+	padding:8px 0;
+}
+#f-bottom .TxtLink{
+	padding:0 3px;
+	vertical-align:top;
+	line-height:1;
+}
+#f-bottom .tmallOtherLink span{
+	vertical-align:top;
+	display:inline-block;
+	height:13px;
+	border-color:#fff;
+
+}
+#f-bottom .CopyRight-txt{
+	margin:5px 0;
+	line-height:20px;
+	color:#a4a4a4;
+}
+#f-bottom .CopyRight-txt a{
+	vertical-align:middle;
+	color:#a4a4a4;
+	margin-right:60px;
+
+}
+#f-bottom .CopyRight-txt p{
+	color:#686868;
+	
+}
